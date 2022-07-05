@@ -6,11 +6,11 @@ DocMeta.setdocmeta!(MathepiaInference, :DocTestSetup, :(using MathepiaInference)
 makedocs(;
     modules=[MathepiaInference],
     authors="Pengfei Song",
-    repo="https://github.com/Song921012/MathepiaInference.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/Mathepia/MathepiaInference.jl/blob/{commit}{path}#{line}",
     sitename="MathepiaInference.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://Song921012.github.io/MathepiaInference.jl",
+        canonical="https://Mathepia.github.io/MathepiaInference.jl",
         assets=String[],
     ),
     pages=[
@@ -19,6 +19,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/Song921012/MathepiaInference.jl",
+    repo="github.com/Mathepia/MathepiaInference.jl",
     devbranch="main",
 )
