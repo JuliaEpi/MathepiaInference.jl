@@ -4,7 +4,7 @@ CurrentModule = MathepiaInference
 
 # MathepiaInference
 
-Documentation for [MathepiaInference](https://github.com/Song921012/MathepiaInference.jl).
+Documentation for [MathepiaInference](https://github.com/Mathepia/MathepiaInference.jl).
 
 ```@index
 ```
